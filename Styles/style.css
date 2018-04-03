@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "posts.css";
 @import "responsive.css";
-@import "index.css";
+@import "desktop.css";
 @import "social-likes.css";
 @import "button.css";
+@import "tablet.css";
+@import "mobile.css";

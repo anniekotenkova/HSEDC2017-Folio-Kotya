@@ -1,0 +1,107 @@
+@media screen and (max-width: 840px) {
+  .menubar{
+    height: 42px;
+  }
+
+  .logo {
+    height: 16px;
+    width: 58px;
+  }
+
+
+  .mainSection {
+    min-width: 100%;
+    height: 1024px;
+  }
+
+  .landingWrapper {
+    max-width: 840px;
+  }
+
+  .mainSection h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 19px;
+  }
+
+  .mainSection section {
+    top: 92px;
+  }
+
+  .mainSection.left section {
+    left: 114px;
+  }
+
+  .mainSection.right section {
+    right: 114px;
+  }
+
+  .mainSection section figure {
+    width: 22px;
+    height: 3px;
+    margin-top: 60px;
+  }
+
+  #mockup1 {
+    height: 584px;
+    width: 486px;
+    top: 482px;
+    left: 114px;
+  }
+
+  #mockup5 {
+    top: 506px;
+    left: 122px;
+    height: 403px;
+    width: 760px;
+  }
+
+  .second_screen {
+    left: 139px;
+    width: 486px;
+    height: 934px;
+    top: 459px;
+  }
+
+  .mockup2 {
+    width: 140px;
+    height: 316px;
+  }
+
+  .mockup3 {
+    width: 140px;
+    height: 395px;
+  }
+
+  .mockup4 {
+    height: 475px;
+    width: 140px;
+  }
+
+  .mainSection.center footer p {
+    margin-top: 440px;
+  }
+
+  .mainSection.center nav {
+    margin-top: 44px;
+  }
+
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 40px;
+    font-size: 12px;
+  }
+
+  .small {
+    width: 200px;
+    height: 35px;
+    line-height: 40px;
+    font-size: 13px;
+  }
+}
