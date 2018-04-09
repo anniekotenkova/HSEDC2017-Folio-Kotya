@@ -1,5 +1,4 @@
-@media (max-width: 560px) {
-
+@media (min-width: 561px) and (max-width: 767px) {
   .menubar{
     height: 42px;
   }
@@ -9,27 +8,27 @@
     width: 58px;
   }
 
+
   section {
     width: 100vw;
-    height: 640px;
+    height: 1024px;
     flex-flow: column;
     position: relative;
   }
 
   .mainSection h2 {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 30px;
+    line-height: 39px;
   }
 
   .mainSection p {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 26px;
     margin-top: 19px;
   }
 
   .paragraph {
-    width: 300px;
-    margin-top: 134px;
+    position: absolute;
   }
 
   .line {
@@ -39,62 +38,61 @@
   }
 
   #mockup1 {
-    height: 460px;
-    width: 310px;
-    margin-top: 390px;
+    margin: 500px 0 0 0;
+    width: 480px;
+    height: 542px;
   }
 
   #mockup5 {
-    margin: 350px 0 40px;
-    height: 286px;
-    width: 540px;
-  }
-
-  .second_screen {
-    /*width: 346px;
-    margin-top: 138px;*/
-    width: 486px;
-    margin-top: 356px;
-  }
-
-  .mockup2 {
-    width: 70px;
-    height: 156px;
-  }
-
-  .mockup3 {
-    width: 70px;
-    height: 196px;
-  }
-
-  .mockup4 {
-    height: 235px;
-    width: 70px;
-  }
-
- .paragraph{
-    position: absolute;
+    margin: 510px 0 157px;
+    height: 403px;
+    width: 760px;
   }
 
   .mainSection.right {
     flex-flow: row;
   }
 
+  .second_screen {
+    width: 486px;
+    height: 934px;
+    margin-top: 456px;
+  }
+
+  .mockup2 {
+    width: 140px;
+    height: 316px;
+    margin-right: 20px;
+  }
+
+  .mockup3 {
+    width: 140px;
+    height: 395px;
+    margin-right: 20px;
+  }
+
+  .mockup4 {
+    height: 475px;
+    width: 140px;
+  }
 
   .mainSection.center {
     text-align: left;
-    width: 100vw;
   }
 
   .mainSection.center .paragraph {
-    width: 350px;
-    padding-left: 80px;
+    width: 480px;
+    padding-left: 60px;
     margin-top: 0px;
+    text-align: left;
   }
 
+  .mainSection.center footer p {
+    margin-top: 100px;
+  }
 
   .large {
-    width: 170px;
+    width: 214px;
     height: 36px;
     line-height: 40px;
     font-size: 12px;
@@ -108,6 +106,6 @@
   }
 
   .left, .right {
-    padding: 0 80px;
+    padding: 0 60px;
   }
 }

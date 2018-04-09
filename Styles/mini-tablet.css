@@ -1,5 +1,4 @@
-@media (min-width: 839px) and (max-width: 1179px) {
-
+@media (min-width: 768px) and (max-width: 839px) {
   .menubar{
     height: 42px;
   }
@@ -9,9 +8,12 @@
     width: 58px;
   }
 
+
   section {
     width: 100vw;
-    height: 610px;
+    height: 1024px;
+    flex-flow: column;
+    position: relative;
   }
 
   .mainSection h2 {
@@ -28,66 +30,60 @@
   .paragraph {
     width: 342px;
     margin-top: 134px;
-    padding-right: 60px;
+  }
+
+  .mainSection.right .paragraph{
+    position: absolute;
+    right: 114px;
   }
 
   .line {
     width: 22px;
     height: 4px;
-    margin-top: 60px;
+    margin-top: 48px;
   }
 
   #mockup1 {
-    height: 490px;
-    width: 376px;
-    margin-top: 134px;
+    margin: 100px 0 0 0;
+    width: 540px;
+    height: 542px;
   }
 
   #mockup5 {
-    margin-top: 201px;
-    height: 286px;
-    width: 540px;
+    margin: 110px 0 157px;
+    height: 403px;
+    width: 760px;
   }
 
   .second_screen {
-    width: 346px;
-    height: 338px;
-    margin-top: 138px;
-    padding-right: 60px;
+    width: 486px;
+    height: 934px;
+    margin-top: 456px;
   }
 
   .mockup2 {
-    width: 100px;
-    height: 226px;
-    margin-right: 20px;
+    width: 140px;
+    height: 316px;
   }
 
   .mockup3 {
-    width: 100px;
-    height: 283px;
-    margin-right: 20px;
+    width: 140px;
+    height: 395px;
   }
 
   .mockup4 {
-    height: 339px;
-    width: 100px;
+    height: 475px;
+    width: 140px;
   }
+  
 
   .mainSection.center footer p {
-    margin-top: 84px;
+    margin-top: 440px;
   }
 
   .mainSection.center nav {
     margin-top: 44px;
   }
-
-  .mainSection.center footer {
-    margin-top: 30px;
-  }
-
-  .mainSection.center .paragraph {
-      margin-top: 184px;
-    }
 
   .large {
     width: 214px;
@@ -103,8 +99,8 @@
     font-size: 13px;
   }
 
-  .left, .right {
-    padding: 0 114px;
-  }
 
+  .left, .right {
+    padding: 0 150px;
+  }
 }

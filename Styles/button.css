@@ -6,7 +6,7 @@
 }
 
 .white {
-  flex-direction: column;
+  flex-flow: column;
   color: white;
 }
 
