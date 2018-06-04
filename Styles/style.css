@@ -1,10 +1,4 @@
-@import "reset.css";
-@import "posts.css";
-@import "responsive.css";
-@import "desktop.css";
-@import "social-likes.css";
-@import "button.css";
-@import "tablet.css";
-@import "mini-tablet.css";
-@import "mobile.css";
-@import "mobile-xl.css";
+@import 'reset.css';
+@import 'layout.css';
+@import 'tablet.css';
+@import 'phone.css';
